@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "../../assets/img/theme/hassnpic.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -108,15 +108,15 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
+                          <span className="heading">12</span>
                           <span className="description">Friends</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
+                          <span className="heading">5</span>
                           <span className="description">Photos</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
+                          <span className="heading">32</span>
                           <span className="description">Comments</span>
                         </div>
                       </div>
@@ -124,35 +124,56 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Hassan Hamdan {" "}
+                      <span className="font-weight-light">, 29</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Jarash , Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Developer & Geologist
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Yarmouk  University
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                          I'm a software developer and a geologist
+
+                          So I Finish
+                          My degree as a geologist from Yarmouk University in 2017.
+
+                          I have been working in a marketing company
+                          As an agent and marketer of their products
+
+                          This is what I use to do until 2021 I decided to learn programming,
+                          Which is my first passion,
+
+                          So I start taking online courses and learning the .NET path,
+                          I completed my first project, a website for artists.
+
+                          Currently, I am on an intensive course from ASAC College
+                          After that is done,
+
+                          I aspire to become a professional and integrated programmer,
+                          And to use my skills on the ground and build great projects with a clear vision.
+                          And add value to any company or team I work with.
+
+                          so I always tell myself it's not about the grades I got,
+                          But about what I can do.
+
+                          This Attitude was completed for me by Coding
+                          Because With Coding You need to get things done.
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        {/* <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
-                        </a>
+                        </a> */}
                       </Col>
                     </Row>
                   </div>
